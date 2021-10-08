@@ -1,0 +1,38 @@
+#count_dom_phenotype(genotypes)
+def count_dom_phenotype(genotypes):
+  os = 0 #offspring
+  n=1 
+  if n<= 3:
+    os += c*2
+    n+= 1
+  elif n==4
+    os += c*1.5
+    n+= 1
+  elif == 5
+    os+= c*1
+  elif == 6:
+    os += 0 
+  retutrn os
+  
+#hamming_dist(dna1,dna2):
+def hamming_dist*(dna1,dna2):
+  a=0
+  b=0
+  
+  while a<len(dna1):
+    if dna1[a]!=dna2[a]
+      b=b+1
+      a=a+1
+      
+      return b
+c= input("DNA 1")
+d= input("DNA 2")
+print(hamming_dist(c,d))
+
+#locate_substring(dna_snippet, dna)
+def locate_substring(dna_snippet, dna):
+  l= [i for i in range(len(dna_snippet)) if dna_snippet.startswith(dna,i]
+  return l
+print(locate_substring(""))
+
+ 
